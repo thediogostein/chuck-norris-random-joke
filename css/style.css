@@ -1,0 +1,50 @@
+body {
+  background: #000;
+  color: white;
+}
+
+main {
+  text-align: ce;
+}
+
+.wrapper {
+  width: 90%;
+  max-width: 400px;
+  margin-inline: auto;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  /* align-items: center; */
+}
+
+img {
+  max-width: 200px;
+}
+
+.img {
+  display: flex;
+  justify-content: center;
+}
+
+#output p {
+  font-size: 1.4rem;
+  word-break: break-all;
+}
+
+button {
+  cursor: pointer;
+  padding: 1rem 2.5rem;
+  font-size: 1rem;
+  background-color: #c2410c;
+  color: #fff7ed;
+  border: none;
+  display: block;
+}
+
+button:hover,
+button:focus {
+  background-color: #ea580c;
+}
